@@ -5,14 +5,27 @@ body{
     background: #252525;
     font-family: "Baloo Tamma 2", cursive;
 }
+#fn{
+  font-family: "Story Script", sans-serif;
+  color: white;
+}
 .m-heading{
     font-family: "Roboto Slab", serif;
 }
 .navigation-link{
     border: 2px solid transparent;
+    color: #ffffff;
 }
 .navigation-link:hover{
     text-decoration: none;
+    color:#ffffff;
     border-bottom: 2px solid #f5ba09;
     transition: 0.5s ease;
+}
+.about{
+    background-color: #252525;
+    border-radius: 0.5rem;
+}
+.card{
+    border-bottom: 8px solid #f5ba09;
 }
